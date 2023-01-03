@@ -1,10 +1,8 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #B9D9EB;
-  background-image: url(../images/fantastic-seascape-with-ripples.jpg);
+  background-image: url(../images/fantastic-seascape-with-ripples-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: bottom center; */
 }
 
 .wrapper {
