@@ -6,15 +6,15 @@ const elTypeSelect = document.querySelector(".type-select");
 const elPartSelect = document.querySelector(".part-select");
 const elText = document.querySelector(".num");
 
-const colorA5 = 100;
-const colorA4 = 200;
-const blackA5 = 60;
-const blackA4 = 120;
+// const pageInput = elInput.value
+// const formatSelect = elTypeSelect.value;
+// const typeSelect = elPartSelect.value;
 
-elForm.addEventListener("change", (e) => {
+
+
+elForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  // if ((elTypeSelect.value = colorA5)) {
-  //   console.log(123);
-  // }
+  elText.textContent = elInput.value * elTypeSelect.value + elPartSelect.value * 1;
+
 });

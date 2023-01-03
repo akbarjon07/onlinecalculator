@@ -30,28 +30,31 @@
           height="100"
         />
 
-        <form class="form" autocomplete="off">
-          <input
-            class="form-control page-input"
-            type="number"
-            placeholder="Betlarning soni..."
-            required
-          />
+        <div class="form-wrapper">
+          <form class="form" autocomplete="off">
+            <input
+              class="form-control page-input"
+              type="number"
+              placeholder="Betlarning soni..."
+              required
+            />
 
-          <select class="form-control type-select">
-            <option value="1">A5 - oq qora</option>
-            <option value="2">A4 - oq qora</option>
-            <option value="3">A5 - rangli</option>
-            <option value="4">A4 - rangli</option>
-          </select>
+            <select class="form-control type-select">
+              <option value="90">A5 - oq qora</option>
+              <option value="150">A4 - oq qora</option>
+              <option value="150">A5 - rangli</option>
+              <option value="250">A4 - rangli</option>
+            </select>
 
-          <select class="form-control part-select">
-            <option value="6000">Oddiy pereplyot</option>
-            <option value="8000">Temir pereplyot</option>
-            <option value="10000">Kley (Termokley)</option>
-            <option value="12000">Qattiq muqova</option>
-          </select>
-        </form>
+            <select class="form-control part-select">
+              <option value="6000">Oddiy pereplyot</option>
+              <option value="8000">Temir pereplyot</option>
+              <option value="10000">Kley (Termokley)</option>
+            </select>
+
+            <button class="btn btn-outline-dark">Hisoblang</button>
+          </form>
+        </div>
 
         <h2 class="sum">So'mma :</h2>
 

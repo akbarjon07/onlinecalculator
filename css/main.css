@@ -1,6 +1,10 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #f5f5f5;
+  background-color: #B9D9EB;
+  background-image: url(../images/fantastic-seascape-with-ripples.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: bottom center; */
 }
 
 .wrapper {
@@ -9,8 +13,8 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 50px;
-  border: 3px solid dimgray;
-  border-radius: 20px;
+  /* border: 3px solid dimgray; */
+  /* border-radius: 20px; */
 }
 
 .img {
@@ -20,21 +24,36 @@ body {
   margin-bottom: 50px;
 }
 
+.form-wrapper {
+  width: 400px;
+  margin: 0 auto;
+}
+
 .page-input {
+  width: 400px;
   margin-bottom: 30px;
-  border: 1px solid dimgray;
+  /* color: dimgrey;
+  border: 1px solid white; */
 }
 
 .type-select {
+  width: 400px;
   margin-bottom: 30px;
-  color: dimgrey;
-  border: 1px solid dimgray;
+  /* color: dimgrey;
+  border: 1px solid dimgray; */
 }
 
 .part-select {
+  width: 400px;
   margin-bottom: 50px;
-  color: dimgrey;
-  border: 1px solid dimgray;
+  /* color: dimgrey;
+  border: 1px solid dimgray; */
+}
+
+.btn {
+  margin: 0;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .sum {
@@ -52,7 +71,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 30px;
   line-height: 34px;
 }
